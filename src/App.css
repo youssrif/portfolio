@@ -1,0 +1,177 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  z-index: -7;
+}
+.Nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 13px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+}
+.Presentation-me-container {
+  display: grid;
+  place-items: center;
+  background-color: #f9f9f9;
+  grid-template-columns: 1FR 1FR;
+  height: 500px;
+}
+.Presentation {
+  margin-top: 50px;
+}
+.Bar-container {
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 4px;
+  width: 80px;
+  position: fixed;
+  top: 300px;
+  left: 37px;
+}
+.bar-items {
+  padding: 10px;
+  cursor: pointer;
+}
+.flex-tech-stack {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.yous-pres {
+  line-break: loose;
+  text-align: justify; /* Justify the text */
+  line-height: 1.5;
+  color: rgb(85, 85, 85);
+}
+.Portfolio-container {
+  grid-template-columns: 1Fr;
+  place-items: center;
+  gap: 10px;
+  background-color: #f9f9f9;
+  /* margin: 50px; */
+  padding: 50px;
+}
+.Project-card {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1FR 1FR;
+  gap: 10px;
+  margin-top: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 4px;
+  padding: 50px;
+  background-color: #fff;
+}
+.Project-tec {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1FR 1FR 1FR;
+  gap: 20px;
+}
+.tec-card {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+}
+.contact-container {
+  grid-template-columns: 1Fr;
+  place-items: center;
+  gap: 10px;
+  /* background-color: #f9f9f9; */
+  /* margin: 50px; */
+  padding: 50px;
+}
+.contact-me {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1FR;
+}
+.mail-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.tags-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.tags-cont h4 {
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.tags-cont h4:hover {
+  color: #147efb;
+}
+.mail-to {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+.footer-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 2fr 1fr;
+  padding: 50px;
+  background-color: #2d2e32;
+}
+.copy-right {
+  color: white;
+}
+.copy-right p {
+  font-size: 20px;
+}
+.icn-li-gi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.icn-li-gi * {
+  stroke: white;
+}
+
+/* For WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #878787; /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track */
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: #878787 #f1f1f1; /* thumb and track colors */
+  scrollbar-width: thin; /* Width of the scrollbar */
+}

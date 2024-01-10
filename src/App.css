@@ -231,4 +231,7 @@ body {
     padding: 30px;
     background-color: #fff;
   }
+  .Project-card .Project-tec {
+    display: none;
+  }
 }

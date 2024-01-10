@@ -28,7 +28,7 @@ function Portfolio() {
               additions throughout the course of a project.
             </p>
             <div className="Open-tab">
-              <a href="https://contracktime.com/" target="_blank">
+              <a href="https://contracktime.com/utilisation-2/" target="_blank">
                 <img src={OP} width={40} alt="OP" />
               </a>
             </div>

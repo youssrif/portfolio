@@ -24,6 +24,7 @@ body {
   background-color: #f9f9f9;
   grid-template-columns: 1FR 1FR;
   height: 500px;
+  padding: 70px;
 }
 .Presentation {
   margin-top: 50px;
@@ -174,4 +175,60 @@ body {
 * {
   scrollbar-color: #878787 #f1f1f1; /* thumb and track colors */
   scrollbar-width: thin; /* Width of the scrollbar */
+}
+@media screen and (max-width: 800px) {
+  .Nav-bar-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+  }
+  .Project-card {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1FR;
+    gap: 10px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 4px;
+    padding: 50px;
+    background-color: #fff;
+  }
+  .about-me-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .Project-tec {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1FR 1FR;
+    gap: 20px;
+  }
+  .flex-tech-stack {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1FR 1FR 1FR 1FR;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Project-card {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1FR;
+    gap: 10px;
+    margin-top: 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 4px;
+    padding: 30px;
+    background-color: #fff;
+  }
 }

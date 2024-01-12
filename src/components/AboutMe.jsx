@@ -6,7 +6,7 @@ function AboutMe() {
         <div style={{ margin: "50px" }}>
           <h4 style={{ color: "#147efb" }}>ABOUT ME</h4>
           <div className="text-me">
-            <h3>A dedicated Front-end Developer</h3>
+            <h3>A dedicated Fullstack Developer</h3>
             <p style={{ color: "#555555" }} className="yous-pres">
               Highly skilled Full Stack JS Developer with 3 years of experience
               in creating and maintaining web applications. Proficient in
